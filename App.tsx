@@ -63,6 +63,7 @@ function App(): JSX.Element {
   };
 
   return (
+    <NavigationContainer>
     <SafeAreaView style={backgroundStyle}>
       <StatusBar
         barStyle={isDarkMode ? 'light-content' : 'dark-content'}
@@ -93,6 +94,7 @@ function App(): JSX.Element {
         </View>
       </ScrollView>
     </SafeAreaView>
+    </NavigationContainer>
   );
 }
 
